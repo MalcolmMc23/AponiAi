@@ -1,10 +1,10 @@
-# Aponi.ai Website
+# Aponi.ai Website Revamp
 
-A modern, responsive website for Aponi.ai - an AI-powered platform that helps CFOs, HR leaders, and private equity firms reduce severance costs, legal exposure, and reputational risk.
+A complete website redesign and revamp for Aponi.ai - an AI-powered platform that helps CFOs, HR leaders, and private equity firms reduce severance costs, legal exposure, and reputational risk.
 
 ## Project Overview
 
-This is a [Next.js](https://nextjs.org) project featuring three distinct page designs that showcase Aponi.ai's capabilities in workforce management and risk assessment.
+This is a modern website revamp built with [Next.js](https://nextjs.org), featuring three distinct page designs that showcase Aponi.ai's capabilities in workforce management and risk assessment. The revamp introduces a fresh, contemporary look with improved user experience, modern animations, and responsive design patterns that better reflect Aponi.ai's innovative approach to AI-powered workforce solutions.
 
 ## Project Structure
 

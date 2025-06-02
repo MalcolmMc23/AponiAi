@@ -81,7 +81,7 @@ export default function More() {
               <Link href="/" className="text-gray-400 hover:text-white transition-colors duration-200 font-medium">
                 Home
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors duration-200 font-medium">
+              <Link href="/blog" className="text-gray-400 hover:text-white transition-colors duration-200 font-medium">
                 Blog
               </Link>
               <Link href="/more" className="text-white font-medium">

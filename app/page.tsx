@@ -201,7 +201,7 @@ export default function Home() {
 
                 <div className="p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl">
                   <p className="text-gray-700 font-medium">
-                    🔒 We're currently working with select partners in stealth mode
+                    🔒 We&apos;re currently working with select partners in stealth mode
                   </p>
                 </div>
               </div>

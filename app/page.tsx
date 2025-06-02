@@ -69,9 +69,9 @@ export default function Home() {
               </h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200">Home</a>
-              <a href="/blog" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200">Blog</a>
-              <a href="/more" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200">More</a>
+              <a href="#" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200">Page 1</a>
+              <a href="/blog" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200">Page 2</a>
+              <a href="/more" className="text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200">Page 3</a>
               <button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200">
                 Get Started
               </button>

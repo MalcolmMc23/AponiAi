@@ -79,13 +79,13 @@ export default function More() {
             </Link>
             <div className="flex items-center space-x-8">
               <Link href="/" className="text-gray-400 hover:text-white transition-colors duration-200 font-medium">
-                Home
+                Page 1
               </Link>
               <Link href="/blog" className="text-gray-400 hover:text-white transition-colors duration-200 font-medium">
-                Blog
+                Page 2
               </Link>
               <Link href="/more" className="text-white font-medium">
-                More
+                Page 3
               </Link>
               <button className="px-6 py-3 bg-white text-black font-bold rounded-none hover:bg-gradient-to-r hover:from-cyan-400 hover:via-purple-400 hover:to-pink-400 hover:text-white transition-all duration-300 border-2 border-white hover:border-transparent">
                 GET ACCESS

@@ -101,13 +101,13 @@ export default function Blog() {
             </Link>
             <div className="flex items-center gap-2">
               <Link href="/" className="px-4 py-2 text-[#2C3E50] hover:bg-gray-100 rounded-xl transition-all duration-200 font-medium">
-                Home
+                Page 1
               </Link>
               <Link href="/blog" className="px-4 py-2 bg-[#F39C12]/10 text-[#F39C12] rounded-xl font-medium">
-                Blog
+                Page 2
               </Link>
               <Link href="/more" className="px-4 py-2 text-[#2C3E50] hover:bg-gray-100 rounded-xl transition-all duration-200 font-medium">
-                More
+                Page 3
               </Link>
               <button className="ml-4 px-6 py-3 bg-[#2C3E50] text-white font-medium rounded-xl hover:bg-[#1a252f] transition-all duration-200 flex items-center gap-2 group">
                 Get Started
@@ -211,17 +211,17 @@ export default function Blog() {
                 </p>
                 
                 <div className="flex items-center justify-between text-xs text-[#7F8C8D]">
-                  <span>{post.date}</span>
                   <span className="flex items-center gap-1">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     {post.readTime}
                   </span>
+                  <span>{post.date}</span>
                 </div>
 
                 {/* Animated arrow on hover */}
-                <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0">
+                <div className="absolute top-8 right-8 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0">
                   <div className="w-10 h-10 bg-[#F39C12] rounded-xl flex items-center justify-center">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
